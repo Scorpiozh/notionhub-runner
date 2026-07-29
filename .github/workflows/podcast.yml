@@ -21,7 +21,7 @@ on:
         required: false
         default: '{}'
   schedule:
-    - cron: '0 10 * * Sat'
+    - cron: '0 16 * * *'
 
 permissions:
   contents: read
